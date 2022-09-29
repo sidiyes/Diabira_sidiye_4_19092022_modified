@@ -6,10 +6,20 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.form-group label {
+    font-size: 15px;
+    font-weight: 600;
+}
 #bloc-4-portfolio {
     padding: 0;
 }
-
+.black-background h2 {
+    color: #FFFFFF !important;
+    font-weight: 600;
+}
+.black-background p {
+    font-size: 12px;
+}
 #bloc-8 .col-sm-6 {
     width: 100%;
     padding-top: 25px;
@@ -553,8 +563,9 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, .3);
     box-shadow: none;
+    font-weight: 500;
 }
 
 .scrollToTop {
@@ -617,12 +628,10 @@ a[data-lightbox]:hover img {
     max-width: 900px;
     margin: 0 auto 0;
 }
-
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
 }
-
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
@@ -822,7 +831,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white !important;
 }
 
 .btn-atomic-tangerine {
@@ -855,23 +864,15 @@ h4 {
     color: #364577!important;
     border-color: #364577!important;
 }
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.jpg");
 }
-
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
 }
-
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
-
 @media (max-width: 1024px) {
     #bloc-7 .container.bloc-lg{
         padding-left: 20px;
@@ -931,8 +932,9 @@ h4 {
 }
 
 @media (max-width: 767px) {
-.portfolio-row img {
-      width: 100%;
+.portfolio-row a {
+      display: flex;
+      justify-content: center;
     }
 .modal-dialog p {
         text-align: center;
